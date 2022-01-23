@@ -8,13 +8,12 @@ public class Scroll : MonoBehaviour
 
     [SerializeField] float endPos;
     [SerializeField] float movePos;
-    // Start is called before the first frame update
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         transform.Translate(0, speed, 0);
